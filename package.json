@@ -1,0 +1,2 @@
+// Get references to HTML elements
+const form = document.getElementById("video-file");

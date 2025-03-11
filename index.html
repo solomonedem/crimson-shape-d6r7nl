@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Culture Hub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Black Culture Hub</h1>
+        <p>Share your stories and videos with the community!</p>
+    </header>
+
+    <!-- Upload Section -->
+    <section id="upload-section">
+        <h2>Upload a Video</h2>
+        <form id="upload-form">
+            <input type="file" id="video-file" name="video" accept="video/*" required>
+            <textarea id="caption" placeholder="add a caption" required></textarea>
+            <button type="submit">Upload Video</button>
+        </form>
+    </section>
+
+    <!-- Video Feed Section -->
+    <section id="video-feed">
+        <h2>Community Videos</h2>
+        <div id="videos-list"></div> <!-- This will display uploaded videos -->
+    </section>
+
+    <script src="index.html"></script> <!-- Link to JavaScript file -->
+
+</body>
+</html>
